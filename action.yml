@@ -1,4 +1,4 @@
-name: 'Jenkins Job Trigger'
+name: 'Jenkins Job with Params'
 description: 'Trigger a Jenkins job'
 branding:
   icon: 'terminal'
@@ -32,5 +32,5 @@ inputs:
     default: "600"
   
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
